@@ -1,0 +1,78 @@
+.App {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 12px;
+  background: whitesmoke;
+}
+
+.margin-right-12 {
+  margin-right: 12px;
+}
+
+.padding-12 {
+  padding: 12px;
+}
+
+.text-blue {
+  color: #2a64d0;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.flex-12 {
+  flex: 12;
+}
+
+.flex-6 {
+  flex: 6;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-8 {
+  flex: 8;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid.col {
+  flex-direction: column;
+}
+
+.grid.row {
+  flex-direction: row;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.display-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
